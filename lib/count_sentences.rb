@@ -18,6 +18,7 @@ class String
 
   def count_sentences
     self.split(" ").map {|x| x.length}
+    x
   binding pry
   end
 end
