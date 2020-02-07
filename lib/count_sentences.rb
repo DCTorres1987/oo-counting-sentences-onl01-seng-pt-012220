@@ -18,6 +18,7 @@ class String
 
   def count_sentences
     sentence = self.squeeze(".")
+    sentence
    
   end
 end
