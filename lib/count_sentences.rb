@@ -18,6 +18,6 @@ class String
 
   def count_sentences
     sentence = self.split(/[.?!]/).reject
-    sentence.count
+    sentence
   end
 end
